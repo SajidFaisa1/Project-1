@@ -154,3 +154,35 @@ main{
     border-radius: 5px;
     padding: 30px; 
 }
+.resume-content{
+    display: flex;
+    gap: 24px;
+    
+}
+.resume-title{
+   font-weight: 700;
+   font-size: 30px;
+   margin-bottom: 30px; 
+   margin-top: 113px;
+}
+.resume-inner{
+    display: inline;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.resume-inst{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 10px;
+
+}
+.resume-details{
+    color: #757575;
+    font-weight: 400;
+    margin-top: 20px;
+    
+    margin-bottom: 30px;
+}
+
