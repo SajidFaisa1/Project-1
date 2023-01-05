@@ -93,15 +93,15 @@ header{
     margin-top:130px ;
     border-radius: 5px;
     padding: 130px 150px;
-    padding-bottom: 230px;
-    
+    /* padding-bottom: 230px; */
+    text-align: center;
+
     
 }
 main{
     
     max-width: 1140px;
-    height: 550px;
-    text-align: center;
+    max-height: 550px;
     margin-left: 230px;
     
 }
@@ -115,4 +115,42 @@ main{
 .heading-2{
     font-weight: 700;
     font-size: 35px;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    padding-top: 30px;
+    font-weight: 700;
+    color: #757575;
+    
+}
+.what{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.skill-main{
+    display: flex; 
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-head{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.skill-des{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px; 
 }
