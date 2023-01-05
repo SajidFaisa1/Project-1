@@ -14,7 +14,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
     
 }
 ul{
@@ -68,7 +68,7 @@ header{
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,left;
-    margin-top: -47px;
+
     
 }
 .button-2{
@@ -185,4 +185,46 @@ main{
     
     margin-bottom: 30px;
 }
+.footer{
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 100px;
+    padding: 130px 200px;
+    justify-content: space-between;
+    width: 110%;
+    margin-left: -270px;
+    margin-top: 113px;
+    
+    
+    
+    
+}
+.contact-head{
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    
+}
+.contact-details{
+    font-weight: 400;
+    color: #474747;
+     margin-top: 20px;
+   
+}
+.contact{
+
+    text-align: left;
+}
+.form input,textarea{
+    margin-bottom: 24px;
+    width: 461px;
+    border: 0;
+ 
+    
+}
+input{
+    height: 64px;
+}
+
 
